@@ -1,0 +1,57 @@
+
+--- Job Model_D5.gms Start 01/03/23 22:05:14 40.4.0 d540b52e WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\40\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms"
+    PageSize 0
+    ScrDir "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\225a\"
+    SysDir C:\GAMS\40\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Course License                                 S220713|0002AO-GEN
+          Otto-von-Guericke-Universitaet Magdeburg, W3 Operations MaDCE2242
+          C:\Users\chitr\Documents\GAMS\gamslice.txt
+          License Admin: Lorena Reyes-Rubiano, lorena.reyes@ovgu.de        
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 4 core(s), and 8 thread(s) available
+GAMS 40.4.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+--- Starting compilation
+--- Model_D5.gms(19) 3 Mb
+--- call GDXXRW.EXE "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Matrix Neustädter Feld.xlsx" par=Coverage rng=Data!b2:aj36 rdim=1 cdim= 1
+
+GDXXRW           40.4.0 d540b52e Oct 3, 2022           VS8 x86 32bit/MS Window
+**** Input file not found = C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Matrix Neustädter Feld.xlsx
+Total time = 750 Ms
+--- Model_D5.gms(20) 3 Mb
+*** GDXIN failed C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Matrix_Neustadter_Feld.gdx
+*** Msg: No such file or directory
+--- Model_D5.gms(20) 3 Mb 1 Error
+*** Error 510 in C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms
+    Unable to open gdx file for $GDXIN
+--- Model_D5.gms(21) 3 Mb 2 Errors
+*** Error 502 in C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms
+    GDXIN  file not open - ignore rest of line
+--- Model_D5.gms(26) 3 Mb 3 Errors
+*** Error 141 in C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- Model_D5.gms(66) 3 Mb 4 Errors
+*** Error 257 in C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms
+    Solve statement not checked because of previous errors
+--- Model_D5.gms(67) 3 Mb 5 Errors
+*** Error 141 in C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_Testing_8\Model_D5.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- Model_D5.gms(68) 3 Mb 5 Errors
+*** Status: Compilation error(s)
+--- Job Model_D5.gms Stop 01/03/23 22:05:15 elapsed 0:00:00.847
