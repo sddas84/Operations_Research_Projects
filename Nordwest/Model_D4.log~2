@@ -1,0 +1,114 @@
+--- Job Model_D4.gms Start 01/03/23 21:11:01 40.4.0 d540b52e WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\40\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Model_D4.gms"
+    PageSize 0
+    ScrDir "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\225a\"
+    SysDir C:\GAMS\40\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Course License                                 S220713|0002AO-GEN
+          Otto-von-Guericke-Universitaet Magdeburg, W3 Operations MaDCE2242
+          C:\Users\chitr\Documents\GAMS\gamslice.txt
+          License Admin: Lorena Reyes-Rubiano, lorena.reyes@ovgu.de        
+          Course license for use within the course and related course work
+Processor information: 1 socket(s), 4 core(s), and 8 thread(s) available
+GAMS 40.4.0   Copyright (C) 1987-2022 GAMS Development. All rights reserved
+--- Starting compilation
+--- Model_D4.gms(19) 3 Mb
+--- call GDXXRW.EXE "C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Matrix_Nordwest.xlsx" par=Coverage rng=Data!b2:aq43 rdim=1 cdim= 1
+
+GDXXRW           40.4.0 d540b52e Oct 3, 2022           VS8 x86 32bit/MS Window
+Input file : C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Matrix_Nordwest.xlsx
+Output file: C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Matrix_Nordwest.gdx
+Total time = 2969 Ms
+--- Model_D4.gms(20) 3 Mb
+--- GDXin=C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Matrix_Nordwest.gdx
+--- GDX File ($gdxIn) C:\Users\chitr\OneDrive\Uddhav Working\Germany\OVGU\SEM-2\Master Seminar\Uddhav\Gams_testing_7\Matrix_Nordwest.gdx
+--- Model_D4.gms(69) 3 Mb
+--- Starting execution: elapsed 0:00:03.129
+--- Model_D4.gms(50) 4 Mb
+--- Generating MIP model FLP
+--- Model_D4.gms(67) 5 Mb
+---   1,562 rows  1,569 columns  3,495 non-zeroes
+---   1,568 discrete-columns
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.000E+00, 5.000E+00] - Zero values observed as well
+--- Bound     [min, max] : [ 1.000E+00, 1.000E+00] - Zero values observed as well
+--- Matrix    [min, max] : [ 2.660E-01, 1.000E+00]
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:03.178
+
+IBM ILOG CPLEX   40.4.0 d540b52e Oct 3, 2022           WEI x86 64bit/MS Window
+
+--- GAMS/Cplex licensed for continuous and discrete problems.
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.06 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 0.86 Mb (peak 0.87 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.0.0 link memory 0.05 Mb (peak 0.18 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 2 times.
+MIP Presolve eliminated 1300 rows and 1309 columns.
+Aggregator did 39 substitutions.
+Reduced MIP has 222 rows, 221 columns, and 624 nonzeros.
+Reduced MIP has 221 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.86 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+Reduced MIP has 222 rows, 221 columns, and 624 nonzeros.
+Reduced MIP has 221 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.55 ticks)
+Probing time = 0.00 sec. (0.07 ticks)
+Clique table members: 182.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: none, using 1 thread.
+Tried aggregator 1 time.
+No LP presolve or aggregator reductions.
+Presolve time = 0.00 sec. (0.10 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =             0.266000
+Iteration:    77   Dual objective     =             9.044000
+Perturbation started.
+Iteration:   102   Dual objective     =             9.044000
+Iteration:   164   Dual objective     =             9.044012
+Removing perturbation.
+Root relaxation solution time = 0.00 sec. (1.26 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0    infeasible                                        195         
+
+Root node processing (before b&c):
+  Real time             =    0.03 sec. (26.29 ticks)
+Sequential b&c:
+  Real time             =    0.00 sec. (0.00 ticks)
+                          ------------
+Total (root+branch&cut) =    0.03 sec. (26.29 ticks)
+
+--- MIP status (103): integer infeasible.
+--- Cplex Time: 0.03sec (det. 26.29 ticks)
+
+CPLEX Error  1217: No solution exists.
+--- Problem is integer infeasible
+--- Reading solution for model FLP
+--- Executing after solve: elapsed 0:00:05.333
+--- Model_D4.gms(68) 5 Mb
+*** Status: Normal completion
+--- Job Model_D4.gms Stop 01/03/23 21:11:06 elapsed 0:00:05.334
